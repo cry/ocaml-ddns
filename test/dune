@@ -1,0 +1,4 @@
+(test
+ (name ocaml_ddns)
+ (preprocess
+  (pps ppx_jane)))

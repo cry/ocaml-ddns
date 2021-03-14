@@ -1,0 +1,5 @@
+(library
+  (inline_tests)
+  (name ocaml_ddns_commander)
+  (libraries async core ocaml_ddns_config)
+  (preprocess (pps ppx_inline_test ppx_jane)))

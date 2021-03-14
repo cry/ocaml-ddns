@@ -1,0 +1,5 @@
+(executable
+  (public_name ocaml_ddns)
+  (name        main)
+  (libraries   ocaml_ddns_commander)
+  (preprocess (pps ppx_jane)))

@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name config)
+ (libraries core async)
+ (preprocess
+  (pps ppx_inline_test ppx_jane)))
